@@ -357,24 +357,27 @@
             </div>
 
             <!-- Form -->
-            <form action="">
+            <form name="contact" netlify>
               <div class="mb-5">
                 <input
                   type="text"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  name="name"
                   placeholder="Name" />
               </div>
               <div class="mb-5">
                 <input
-                  type="text"
+                  type="email"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
-                  placeholder="Name" />
+                  name="email"
+                  placeholder="Email" />
               </div>
               <div class="mb-5">
-                <input
+                <textarea
                   type="text"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
-                  placeholder="Name" />
+                  name="message"
+                  placeholder="Message"></textarea>
               </div>
               <div class="mb-5 d-grid">
                 <button class="btn btn-primary" type="submit">Submit</button>
